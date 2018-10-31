@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width:320px ;
+	height: 500px;
+	margin: 50px auto;
+	position: relative;
+	background: url(../images/game_bg.jpg) no-repeat 0 0;
+}
+
+.score{
+	margin-left: 60px;
+	color: #fff;
+	font-size: 30px;
+}
+.container .progressbar{
+	width: 180px;
+	height: 14px;
+	background: red;
+	position: absolute;
+	top: 67px;
+	left: 64px;
+	border-radius: 7px;
+	
+}
+.start{
+	width: 140px;
+	height: 40px;
+	background: red;
+	position: absolute;
+	bottom: 160px;
+	right: 90px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 40px;
+
+
+}
+.container>.rules{
+	width: 320px;
+	height: 30px;
+	background-color: gray;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	line-height: 30px;	
+
+}
+.rulespage{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+
+}
+.rulespage>p{
+	line-height: 50px;
+	color: white;
+}
+.gameover{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 100px;
+	text-align: center;
+	display: none;
+	box-sizing: border-box;
+
+}
+.gameover>h1{
+	color: red;
+	text-shadow: 3px 3px 0 #fff;
+
+
+}
+.gameover>.restart{
+	width: 150px;
+    line-height: 35px;
+
+    text-align: center;
+    color: white;
+    background: linear-gradient(#74ACCF,#007DDC);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+}
